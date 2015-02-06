@@ -1,0 +1,95 @@
+#Bottom {
+border-top: 3px solid #A3CEBE;
+font-family: Microsoft Yahei Light UI;
+}
+
+#Search>form>div {
+background: none ;
+}
+
+#Top {
+background: #FF0000;
+border: none;
+}
+
+#Top img {
+-webkit-filter: contrast(130%) invert(100%);
+}
+
+#Wrapper {
+background: #E5ECF3;
+}
+
+#q {
+-webkit-transition: all 0.2s ease;
+background: #FFF ;
+border: 2px solid #BAC8E6;
+border-radius: 4px;
+font-family: Microsoft Yahei Light UI;
+opacity: 0;
+}
+
+#q:focus,#q:hover {
+opacity: 1;
+}
+
+.box {
+background: #fff ;
+border: none;
+box-shadow: none;
+}
+
+.cell {
+border-bottom: 3px solid #E5E8EE;
+}
+
+.header {
+border-bottom: 3px solid #E5E8EE;
+}
+
+.item {
+background: #f8f8f8;
+}
+
+.top {
+color: #fff;
+}
+
+.topic_buttons {
+background: #ddd;
+}
+
+a.count_livid:link {
+background: #9D9DD3;
+}
+
+a.tab_current {
+background: #3B3BAF;
+}
+
+a.tb:link, a.tb:visited, a.tb:active {
+color: #f5f5f5;
+text-shadow: none;
+}
+
+a.top:link,a.top:visited,a.top:active,.topic_buttons div:first-child {
+color: #fff ;
+text-shadow: none;
+}
+
+body {
+font-family: arial,"Microsoft Yahei light UI","Hiragino Sans GB",sans-serif ;
+}
+
+form[action='/new/nodejs'] .mll,form[action='/new/nodejs'] .sll,form[action='/new/nodejs'] .mle {
+background: #fff;
+border: none;
+}
+
+img[alt='Node.js'] {
+background: #46483E;
+}
+
+textarea.mll {
+font-family: Microsoft Yahei Light UI;
+}
